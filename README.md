@@ -101,6 +101,8 @@ Edit `cucumber.js` to configure:
 Run All Tests
 npm test
 
+--- run it few time so diffrenet product will capture---
+
 
 **Test Coverage**
 
