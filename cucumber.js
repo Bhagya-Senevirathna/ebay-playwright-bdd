@@ -1,7 +1,13 @@
 module.exports = {
   default: {
-    require: ['steps/**/*.js'],
-    paths: ['features/**/*.feature'],
-    publishQuiet: true
+    require: [
+      'steps/**/*.js'        
+    ],
+    format: [
+      'progress',            
+      'html:reports/cucumber-report.html'
+    ],
+    publishQuiet: true,
+    timeout: 120000          
   }
 };

@@ -2,10 +2,10 @@
   "name": "ebay-playwright-bdd",
   "version": "1.0.0",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "npx cucumber-js"
   },
   "devDependencies": {
-    "@cucumber/cucumber": "^9.0.0",
+    "@cucumber/cucumber": "^9.6.0",
     "@playwright/test": "^1.42.0"
   }
 }
